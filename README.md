@@ -1,12 +1,12 @@
 # Requirements
 
-Hardwear
+Hardware
 
 * Raspberry Pi (Zero / 3A+ / 3B / 3B+ / 4)
 * SenseHAT
 * Nature Remo
 
-Softowear
+Softoware
 
 * Raspberry Pi OS Buster
 * Python3
@@ -58,7 +58,7 @@ Webooks|turn_off|Nature Remo|Turn off air conditioner
 
 #### Edit IFTTT Key
 
-Getyou IFTTT webhook key from [here](https://ifttt.com/maker_webhooks/settings) and edit `sense-ifttt.py`
+Get your IFTTT webhook key from [here](https://ifttt.com/maker_webhooks/settings) and edit `sense-ifttt.py`
 
 ```python
 IFTTT_KEY = ''  # @param {type:"string"}
